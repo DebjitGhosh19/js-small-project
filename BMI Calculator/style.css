@@ -1,0 +1,33 @@
+body{
+  background: gray;
+  font-family:'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.contener{
+  height: 600px;
+  width: 500px;
+margin: 0 auto;
+
+}
+h1{
+  text-align: center;
+}
+form div{
+  padding: 10px;
+}
+
+button{
+  width: 100px;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left:120px ;
+  
+}
+footer{
+  width: 400px;
+  margin-left:100px;
+}
