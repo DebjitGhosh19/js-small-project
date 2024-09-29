@@ -1,0 +1,14 @@
+body{
+  background: #212121;
+  color: #fff;
+}
+h1{
+  text-align: center;
+}
+.contener{
+  width: 600px;
+  margin: 0 auto;
+  background: rgb(80, 79, 79);
+  text-align: center;
+  padding: 10px;
+}
