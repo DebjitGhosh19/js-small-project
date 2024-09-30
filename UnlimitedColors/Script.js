@@ -13,13 +13,15 @@ const hex=["0","1","2","3","4","5","6","7","8","9","A","B","C","D","E","F"]
  }
 let intervalId;
  const startChangingColor=function(){
-  intervalId=setInterval(change,1000);
+  if(!intervalId){
+  intervalId=setInterval(change,1000);}
   function change() {
     document.body.style.background=RadomColor()
   }
  }
  const stopChangingColor=function () {
-  clearInterval(intervalId)
+  clearInterval(intervalId);
+  intervalId=null;
  }
  document.querySelector('#start').addEventListener("click",startChangingColor);
  document.querySelector('#stop').addEventListener("click",stopChangingColor);
